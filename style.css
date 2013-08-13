@@ -1,0 +1,854 @@
+@charset "utf-8";
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, EM, FONT, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, SUB, SUP, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND
+	
+	
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+	}
+	
+/* ----------------------------------------
+   Webfonts
+------------------------------------------- */
+@font-face {
+    font-family: 'Virgo01Regular';
+    src: url('webfonts/virgo-webfont.eot');
+    src: url('webfonts/virgo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/virgo-webfont.woff') format('woff'),
+         url('webfonts/virgo-webfont.ttf') format('truetype'),
+         url('webfonts/virgo-webfont.svg#Virgo01Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+	
+/* ----------------------------------------
+   pagina
+------------------------------------------- */
+
+	  P  {
+	 font-size : 12pt;
+	 font-family : arial,helvetica;
+	 font-weight : normal;
+	}
+	
+
+	h1  {
+	 font-size : 22pt;
+	 font-family : Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	 padding: 0 0 3px 0;
+	}
+	
+	
+	td  {
+	 font-size : 10pt;
+	 font-family : verdana,arial;
+	 text-align : center;
+	}
+	
+	body
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		background: #000000 url(images/layout_v1.jpg) no-repeat top;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#wrapper
+	{
+		background: transparent url(images/wrapper_bg.jpg) no-repeat top right;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 970px;
+		padding-top: 0px;
+		height:auto;
+		/*overflow: hidden;*/
+	}
+	#wrapper2
+	{
+		background: transparent url(images/wrapper_bg2.jpg) no-repeat top right;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 970px;
+		padding-top: 0px;
+		overflow: hidden;
+	}
+	
+	
+	#logo
+	{
+		background-color: transparent; 
+		padding:0px 0px 0px 0px; 
+		width: 425px;
+		height: 105px;
+		float: left;
+	}
+
+	#buscador
+	{
+		background-color: transparent; 
+		margin-right: auto;
+		margin-left: auto;
+		padding:0px 0px 0px 0px; 
+		width: 425px;
+		height: 105px;
+		float: right;
+	}
+	#footer
+	{
+		background:  #000 url(images/footer.jpg) no-repeat top center;
+		margin-right: auto;
+		margin-left: auto;
+		width: 970px;
+		clear:both;
+	}
+	
+	#footer2_div
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding:0px 20px 0px 20px; 
+		width: 930px;
+	}
+	#header
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 970px;
+		height: 105px;
+		padding-top: 0px;
+	}
+
+
+	#banner_content
+	{
+		margin-right: auto;
+		margin-left: auto;
+		width: 970px;
+		text-align:center;
+	}
+	#banner_galeria
+	{
+		margin-right: auto;
+		margin-left: auto;
+		width: 970px;
+		text-align:center;
+	}
+	#usuario_pleca
+	{
+		background: url(images/comentarios_bg.png) no-repeat top;
+		margin-right: auto;
+		margin-left: auto;
+		width: 930px;
+		height: 64px;
+		padding:0px 13px 0px 20px; 
+		text-align:center;
+	}
+	#vota_foto
+	{
+	background: url(images/base_caracteristicas.png) repeat-x top;
+	margin-right: auto;
+	margin-left: auto;
+	width: 480px;
+	height: 44px;
+	padding:30px 25px 25px 35px;
+	text-align:center;
+	border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	< ! --[if lt IE 9 ]>-- >
+	behavior: url(border-radius.htc);
+	border: 1px solid #333;
+	}
+	
+	
+	
+	#retocada_foto
+	{
+	/*background: url(images/foto_para_enmarcar.png) no-repeat top;*/
+	margin-right: auto;
+	margin-left: auto;
+	width: 547px;
+	height: 410px;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	border: 2px solid #000;
+	}
+
+
+	#menu_div
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0px;
+		padding-left: 0px;
+		width: 950px;
+		height: 72px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		background-color: transparent; 
+	}
+
+	
+	#resultados_div
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding:50px 20px 0px 65px; 
+		width: 800px;
+		float: left;
+	}
+	
+
+
+	#alineartexto  {
+	text-align: left;
+	}
+	
+	#alinearsubtitulo  {
+	text-align: left;
+	}
+	
+	#alinearsubtituloder  {
+	text-align: right;
+	width: 100%;
+	}
+	.tablaprecio{
+	background: url(images/fichaprecio.png)  no-repeat top;
+	}
+
+
+	.img{
+	border:0px solid #fff;
+	}
+	
+	.img:hover{
+	border:0px solid #fbfbfb;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	}
+	.img2{
+	border:0px solid #cccccc;
+	}
+	
+	.img2:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=8);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	}
+	
+	.Contenedor_fotos
+	{
+		background: transparent url(images/basemensaje.png) repeat-x top;
+		padding:0px 0px 20px 0px; 
+		width: 221px;
+		height: 280px;
+		margin:10px;
+		float:left;
+ 	}
+	#Contenedor_detalle
+	{
+		background: transparent url(images/basefotos.png) no-repeat top; 
+		margin:0px auto 0px auto; 
+		padding:30px 30px 10px 30px; 
+		width: 548px;
+		float: center;
+ 	}
+	.images{
+	outline:#333 dotted medium;
+	margin-top: 10px;
+	opacity: 0.8;
+	filter:alpha(opacity=85);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+
+	} 
+	.images:hover{
+	outline:#fff solid medium;
+	opacity: 1;
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	} 
+
+	.Contenedor_leyenda
+	{
+		padding:10px 10px 10px 20px; 
+		width: 188px;
+		height: 42px;
+ 	}
+	#comentarios
+	{
+	background: #1f64c1 url(images/banner_big.jpg) repeat top;
+	width: 570px;
+	padding:35px 55px 25px 55px;
+	text-align:center;
+		border-radius: 10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+		< ! --[if lt IE 9 ]>-- >
+		behavior: url(border-radius.htc);
+	border: 1px solid #d5d5d5;
+	}
+
+/* ----------------------------------------
+   textos
+------------------------------------------- */
+
+
+	.h1 {
+	font: 23px 'TelcelLigera',Arial, Helvetica, sans-serif;
+	color: #666;
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+	.tituloficha {
+	font: 12px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #093;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align:left
+	}
+	a.tituloficha {
+	color: #666;
+	font-style: normal;
+	text-decoration: none;
+	}
+	a.tituloficha:hover {
+	color: #09F;
+	font-style: normal;
+	text-decoration: none;
+	}
+	
+	.tituloficha1 {
+	font: 12px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #CCC;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align:left
+	}
+	a.tituloficha1 {
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+	}
+	a.tituloficha1:hover {
+	color: #0F3;
+	font-style: normal;
+	text-decoration: none;
+	}
+	
+	.titulofichabig {
+	font: 18px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align:left
+	}
+	
+	.precios {
+	font: 17px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #009933;
+	margin-right: 2px;
+	margin-left: 2px;
+	}
+	.precios_correcion {
+	font: 22px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #333;
+	margin-right: 2px;
+	margin-left: 2px;
+	text-decoration: line-through;
+	}
+		
+	.parrafo_correccion {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	text-decoration: line-through;
+	}
+	.parrafo {
+	color: #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	}
+
+	a.parrafo {
+	color: #0099CC;
+	text-decoration: none;
+	}
+	
+	a.parrafo:hover {
+	color: #0CF;
+	text-decoration: none;
+	}
+	.parrafo_bold {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	}
+
+	a.parrafo_bold {
+	color: #093;
+	text-decoration: none;
+	}
+	
+	a.parrafo_bold:hover {
+	color: #0F0;
+	text-decoration: none;
+	}
+	
+	.parrafo1_bold {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+
+	}
+
+	a.parrafo1_bold {
+	color: #09C;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+	a.parrafo1_bold:hover {
+	color: #0FF;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+
+	.sidebar_tit {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-right: 0px;
+	margin-left: 0px;
+	text-align:left;
+	text-decoration:none;
+	}
+	
+	.legales {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #063;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+	
+	a.legales {
+	color: #cccccc;
+	}
+	a.legales:hover {
+	color: #0CF;
+	}
+	
+	.legalesgris {
+	font: 10px Geneva, Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+		
+	.menu1 {
+	color: #666666;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	}
+
+	a.menu1 {
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+	
+	a.menu1:hover {
+	color: #CC3300;
+	text-decoration: none;
+	}
+	.formulario{
+	color: #FFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+	.características {
+	color: #333333;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: left;
+	font-weight: lighter;	
+	}
+	.tablaprecio{
+	background: url(images/fichaprecio.png)  no-repeat top;
+	} 
+	.tablaplanes{
+	background: url(images/fichaplanes.png)  no-repeat top;
+	} 
+	.tablaequipos{
+	width:202px;
+	height:365px;
+	word-wrap: break-word;
+    word-break:break-all;
+	background: url(images/fichaequipos.png)  no-repeat top;
+	} 
+
+
+
+/* ----------------------------------------
+ 	menú rollover
+------------------------------------------- */
+
+	ul#menu {
+		width:950px;
+		height:71px;
+		list-style:none;
+		margin:0;
+		padding-left: 0px;
+		padding-top:0px;
+		padding-left:0px;
+	}
+
+/* Firefox Dotted Outline Fix */
+	a:active { 
+		outline: none; 
+	}
+	
+	/* Firefox Dotted Outline Fix */
+	a:focus { 
+		-moz-outline-style: none; 
+	}
+	
+	
+	/* Float LI Elements - horizontal display */
+	ul#menu li {
+		float:left;
+	}
+	
+	/* Link - common attributes */
+	ul#menu li a {
+		background:url(images/sprite.png) no-repeat scroll top left;
+		display:block;
+		height:71px;
+		position:relative;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "menu1" */
+	ul#menu li a.menu1 {
+		width:190px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "menu2" */
+	ul#menu li a.menu2 {
+		width:190px;
+		background-position:-190px 0px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "menu3" */
+	ul#menu li a.menu3 {
+		width:190px;
+		background-position:-380px 0px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "menu2" */
+	ul#menu li a.menu4 {
+		width:190px;
+		background-position:-570px 0px;
+	}
+	
+	/* Specify width and background position attributes specifically for the class: "menu3" */
+	ul#menu li a.menu5 {
+		width:190px;
+		background-position:-760px 0px;
+	}
+	
+	/* Span (on hover) - common attributes */
+	ul#menu li a span {
+		background:url(images/sprite.png) no-repeat scroll bottom left;
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		height:100%;
+		width:100%;
+		z-index:100;
+	}
+	
+	/* Span (on hover) - display pointer */
+	ul#menu li a span:hover {
+		cursor:pointer;
+	}
+	
+	/* Shift background position on hover for the class: "menu1" */
+	ul#menu li a.menu1 span {
+		background-position:0px -71px;
+	}
+	
+	/* Shift background position on hover for the class: "menu2" */
+	ul#menu li a.menu2 span {
+		background-position:-190px -71px;
+	}
+	
+	/* Shift background position on hover for the class: "menu3" */
+	ul#menu li a.menu3 span {
+		background-position:-380px -71px;
+	}
+
+	/* Shift background position on hover for the class: "menu4" */
+	ul#menu li a.menu4 span {
+		background-position:-570px -71px;
+	}
+	
+	/* Shift background position on hover for the class: "menu5" */
+	ul#menu li a.menu5 span {
+		background-position:-760px -71px;
+	}
+
+
+
+
+/* ----------------------------------------
+   botones azules
+------------------------------------------- */
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+	background: transparent url('images/bg_button_a.png') no-repeat scroll top right;
+	color: #FFF;
+	display: block;
+	float: left;
+	font: normal 11px arial, sans-serif;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+}
+a.button:hover {
+	color: #FFF;
+	opacity: 0.8;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+}
+a.button span {
+    background: transparent url('images/bg_button_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+a.button:active {
+    background-position: bottom right;
+
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+/* ----------------------------------------
+   botones grises
+------------------------------------------- */
+
+a.button2 {
+	background: transparent url('images/bg_button_a2.png') no-repeat scroll top right;
+	color: #666;
+	display: block;
+	float: left;
+	font: normal 11px arial, sans-serif;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px; /* sliding doors padding */
+	text-decoration: none;
+}
+a.button2:hover {
+	color: #930;
+	opacity: 0.5;
+	filter:alpha(opacity=10);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+}
+a.button2 span {
+    background: transparent url('images/bg_button_span2.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+a.button2:active {
+    background-position: bottom right;
+
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button2:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+/* ----------------------------------------
+   Lista 2
+------------------------------------------- */
+
+ul#lista2 li {
+	list-style: none;
+	background: url(images/bullet_1.png) left center no-repeat;
+	padding-left: 50px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	display: block;
+	border-bottom: 1px dotted #0CF;
+}
+
+ul#lista2 li a{
+	font-style: normal;
+	color: #999;
+	text-decoration: none;
+}
+
+ul#lista2 li a:hover{
+	font-style: normal;
+	color: #3CF;
+}
+
+ul#lista2 li a:visited{
+	font-style: normal;
+	color: #fff;
+}
+
+
+
+/* ----------------------------------------
+   buscador personalizado
+------------------------------------------- */
+FIELDSET.search
+{
+	border: none;
+	width: 243px;
+	margin: 0 auto;
+
+}
+.search INPUT, .search BUTTON
+{
+	border: none;
+	float: left;
+}
+.search INPUT.box
+{
+	color: #FFFFFF;
+	font-size: 9pt;
+	width: 152px;
+	height: 15px;
+	padding: 4px 3px 5px 52px;
+	background: url(images/search_bg.png) no-repeat;
+	margin-right: 4px;
+}
+.search INPUT.box:focus
+{
+	background:url(images/search_bg.png) no-repeat left -26px;
+	outline: none;
+}
+.search BUTTON.btn
+{
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: url(images/search_bg.png) no-repeat top right;
+}
+.search BUTTON.btn:hover
+{
+	background: url(images/search_bg.png) no-repeat bottom right;
+}
+
+/*===========================================*/
+
+/*== fORM */
+
+/*===========================================*/
+
+	
+INPUT
+{
+	font-weight: bold;
+	background: #000 url(images/fondo_input1.jpg) repeat-x bottom;
+	border: 1px solid #333;
+	font: 13px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #093;
+	border.radius: 10px;  
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	behavior: url(htc/PIE.php);
+	padding:4px 12px 4px 4px;
+}
+
+INPUT.text
+{
+	padding:42px 45px 32px 45px;
+	background: #3D3D3D;
+}
+INPUT.button
+{
+	background: #999999;
+	border-top: 1px solid #333333;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	color: #FFFFFF;
+}
+
+
+.el02 { /* Text and background colour, blue on light gray */
+	font: 12px 'Virgo01Regular',Arial, Helvetica, sans-serif;
+	color: #093;
+	background: #000 url(images/fondo_input1.jpg) repeat-x bottom;
+	border: 1px solid #333;
+	padding:4px 12px 4px 4px;
+}
+
+
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+
+
+.theme-default #slider {
+    margin:0px auto 0 auto;
+    width:970px; /* Make sure your images are the same size */
+    height:354px; /* Make sure your images are the same size */
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:150px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
+
+/*====================*/
+/*=== Calendario ===*/
+/*====================*/

@@ -1,0 +1,42 @@
+[21-Jun-2012 16:30:05] PHP Warning:  require(/home/lavidaes/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/lavidaes/framework/base/CApplication.php on line 123
+[21-Jun-2012 16:30:05] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/lavidaes/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lavidaes/framework/base/CApplication.php on line 123
+[22-Jun-2012 08:32:00] PHP Warning:  require(/home/lavidaes/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/lavidaes/public_html/protected/config/test.php on line 4
+[22-Jun-2012 08:32:00] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/lavidaes/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lavidaes/public_html/protected/config/test.php on line 4
+[22-Jun-2012 09:21:07] PHP Warning:  require(/home/lavidaes/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/lavidaes/framework/base/CApplication.php on line 123
+[22-Jun-2012 09:21:07] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/lavidaes/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lavidaes/framework/base/CApplication.php on line 123
+[26-Jun-2012 10:08:29] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 157
+[26-Jun-2012 10:08:29] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 157
+[26-Jun-2012 10:08:47] PHP Fatal error:  Class 'RespuestaActividad' not found in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 324
+[26-Jun-2012 10:08:47] PHP Fatal error:  Class 'RespuestaActividad' not found in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 324
+[26-Jun-2012 16:04:11] PHP Parse error:  syntax error, unexpected '$' in /home/lavidaes/public_html/protected/views/respuestas/_telon.php on line 27
+[26-Jun-2012 16:04:16] PHP Parse error:  syntax error, unexpected '$' in /home/lavidaes/public_html/protected/views/respuestas/_telon.php on line 27
+[26-Jun-2012 16:04:25] PHP Parse error:  syntax error, unexpected '$' in /home/lavidaes/public_html/protected/views/respuestas/_telon.php on line 27
+[26-Jun-2012 16:04:47] PHP Parse error:  syntax error, unexpected '$' in /home/lavidaes/public_html/protected/views/respuestas/_telon.php on line 27
+[26-Jun-2012 16:04:48] PHP Parse error:  syntax error, unexpected '$' in /home/lavidaes/public_html/protected/views/respuestas/_telon.php on line 27
+[27-Jun-2012 12:34:41] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 249
+[27-Jun-2012 12:34:41] PHP Warning:  Unterminated comment starting line 360 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 360
+[27-Jun-2012 12:34:41] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 360
+[27-Jun-2012 12:34:48] PHP Fatal error:  Class 'RespuestaActividad' not found in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 354
+[27-Jun-2012 12:34:48] PHP Fatal error:  Class 'RespuestaActividad' not found in /home/lavidaes/framework/db/ar/CActiveRecord.php on line 371
+[27-Jun-2012 12:36:30] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 12:36:30] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 12:36:30] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 249
+[27-Jun-2012 12:36:30] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 249
+[27-Jun-2012 12:36:30] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 308
+[27-Jun-2012 12:36:30] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 308
+[27-Jun-2012 13:36:30] PHP Warning:  Unterminated comment starting line 59 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 59
+[27-Jun-2012 13:36:30] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 59
+[27-Jun-2012 13:36:30] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 13:36:30] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 13:36:30] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 13:36:30] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 112
+[27-Jun-2012 13:36:30] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 154
+[27-Jun-2012 17:26:08] PHP Parse error:  syntax error, unexpected $end in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 187
+[27-Jun-2012 17:26:08] PHP Warning:  Unterminated comment starting line 330 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 330
+[27-Jun-2012 17:26:08] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 330
+[27-Jun-2012 17:49:54] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 145
+[27-Jun-2012 17:49:54] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 237
+[27-Jun-2012 17:51:41] PHP Warning:  Unterminated comment starting line 186 in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 186
+[27-Jun-2012 17:51:41] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 186
+[27-Jun-2012 17:54:39] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 145
+[27-Jun-2012 18:38:17] PHP Fatal error:  Class 'RespuestaActividad' not found in /home/lavidaes/public_html/protected/controllers/RespuestasController.php on line 368

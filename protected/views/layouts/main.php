@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="es" />
+    
+
+	<!-- blueprint CSS framework -->
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+	<script type="text/javascript" src="<?php echo Yii::app()->homeUrl;?>js/devlynEspectaculo.js"></script>
+    <!--codigo analytics-->
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32841384-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+	<link href="<?php echo Yii::app()->homeUrl;?>style.css" rel="stylesheet" type="text/css" />
+    <?php Yii::app()->clientScript->registerCoreScript('jquery');?>
+    	<script type="text/javascript" src="<?php echo Yii::app()->homeUrl;?>js/swfobject.js"></script><!-- menu jQuery Library -->
+		<script type="text/javascript" src="<?php echo Yii::app()->homeUrl;?>js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript">
+			/*$(function() {
+				$('#tj_container').gridnav({
+					rows	: 3,
+					type	: {
+						mode		: 'seqfade', 		// use def | fade | seqfade | updown | sequpdown | showhide | disperse | rows
+						speed		: 500,				// for fade, seqfade, updown, sequpdown, showhide, disperse, rows
+						easing		: '',				// for fade, seqfade, updown, sequpdown, showhide, disperse, rows
+						factor		: 50,				// for seqfade, sequpdown, rows
+						reverse		: false				// for sequpdown
+					}
+				});
+			});*/
+		</script>
+
+		<!-- Let's do the animation -->
+		<script type="text/javascript">
+            $(function() {
+                // set opacity to nill on page load
+                $("ul#menu span").css("opacity","0");
+                // on mouse over
+                $("ul#menu span").hover(function () {
+                    // animate opacity to full
+                    $(this).stop().animate({
+                        opacity: 1
+                    }, 'slow');
+                },
+                // on mouse out
+                function () {
+                    // animate opacity to nill
+                    $(this).stop().animate({
+                        opacity: 0
+                    }, 'slow');
+                });
+            });
+        </script>
+            <!-- fin menu jQuery Library -->
+			
+
+
+
+</head>
+
+<body>
+
+<div id="wrapper">      
+	<?php $this->widget('Header');?>
+	<?php $this->widget('TopMenu',array('seccion'=>Yii::app()->user->isGuest?'home':"interior"));?>
+
+
+	<?php echo $content; ?>
+</div>
+<?php $this->widget('Footer');?>
+<script type="text/javascript">
+	var logUrl='<?php echo $this->createUrl('/site/loginUser');?>';
+</script>
+</body>
+</html>

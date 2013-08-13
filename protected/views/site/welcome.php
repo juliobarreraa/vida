@@ -1,0 +1,1 @@
+<h2>Bienvenido(a) <?php echo Yii::app()->user->fullName;?></h2>
