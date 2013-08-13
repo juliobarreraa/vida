@@ -1,5 +1,5 @@
 index-test.php
-protected/config/*.php
+/protected/config/*.php
 themes/classic/
 assets/
 protected/runtime/
